@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Secretos
+.env
+*.pem
+*.key
+id_*
+azure_lab*
+github*
+
+# Python / editores
+__pycache__/
+*.pyc
+.venv/
+.vscode/
